@@ -130,7 +130,7 @@
         }
 
         .hero {
-            background-image: url("");
+            background-image: url("https://unsplash.com/es/fotos/una-persona-en-traje-de-buceo-y-gafas-nadas-sobre-un-arrecife-de-coral-DnF5nG4Fk4c");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
