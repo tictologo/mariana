@@ -130,7 +130,7 @@
         }
 
         .hero {
-            background-image: url("https://unsplash.com/es/fotos/libros-sobre-la-mesa-fz4Du9f9OBU");
+            background-image: url("");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -201,7 +201,7 @@
 </head>
 
 <body class="bg-[#faebd7]">
-    @livewire('contentcomponent')
+    @livewire('content-component')
 </body>
 
 </html>
