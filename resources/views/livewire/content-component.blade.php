@@ -60,7 +60,7 @@
             <!-- select-show -->
             <div class="flex justify-end mt-3">
                 <label class="ml-5 text-lg text[#ACAAAA] text-white">Show
-                    <select class=" w-24  ml-5 text-base border-none outline-none  focus:ring-white"
+                    <select class=" w-24  ml-5 text-base text-[#ACAAAA] border-none outline-none  focus:ring-white"
                         wire:model.live="paginacion">
                         <option>10</option>
                         <option value="25">25</option>
