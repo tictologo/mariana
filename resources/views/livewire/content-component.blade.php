@@ -59,8 +59,8 @@
 
             <!-- select-show -->
             <div class="flex justify-end mt-3">
-                <label class="ml-5 text-lg text[#ACAAAA]">Show
-                    <select class=" w-24 text-[#9c9c9c] ml-5 text-base border-none outline-none  focus:ring-white"
+                <label class="ml-5 text-lg text[#ACAAAA] text-white">Show
+                    <select class=" w-24  ml-5 text-base border-none outline-none  focus:ring-white"
                         wire:model.live="paginacion">
                         <option>10</option>
                         <option value="25">25</option>
@@ -69,7 +69,7 @@
                     </select>
                 </label>
             </div>
-            <div class=" grid lg:grid-cols-2 mb-16 2xl:grid-cols-3  bg-orange-50  mt-4 sm:px-1 sm:py-1  rounded-lg ">
+            <div class=" grid lg:grid-cols-2 mb-16 2xl:grid-cols-3  mt-4 sm:px-1 sm:py-1  rounded-lg ">
                 @foreach ($books as $book)
                     <button wire:click="Edit({{ $book->id }})">
                         <div wire:click="$set('open', true)"
