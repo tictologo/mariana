@@ -130,7 +130,7 @@
         }
 
         .hero {
-            background-image: url("https://unsplash.com/es/fotos/una-persona-en-traje-de-buceo-y-gafas-nadas-sobre-un-arrecife-de-coral-DnF5nG4Fk4c");
+            background-image: url("https://images.unsplash.com/photo-1541697418880-71a2ccd305a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
