@@ -2,10 +2,7 @@
     {{-- <div class="fixed top-0 left-0 right-0 bg-gray-800 h-auto  justify-items-center  py-4 ">
         <header>
 
-            <div class="mx-[500px] mt-2">
-                <x-input class="w-full px-2 h-7 rounded border border-[#acaaaa] outline-none  focus:ring-white"
-                    placeholder="buscar" wire:model.live="search" type="search" />
-            </div>
+            
             <nav>
                 
             </nav>
@@ -53,6 +50,10 @@
     </div>
 
     <section class="container content">
+        <div class="mx-[500px] mt-2">
+            <x-input class="w-full px-2 h-7 rounded border border-[#acaaaa] outline-none  focus:ring-white"
+                placeholder="buscar" wire:model.live="search" type="search" />
+        </div>
 
 
         <div class="container mx-auto mt-5 text-center rounded-lg ">
