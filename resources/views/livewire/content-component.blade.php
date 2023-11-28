@@ -50,8 +50,8 @@
     </div>
 
     <section class="container content">
-        <div class="mx-[500px] mt-2">
-            <x-input class="w-full px-2 h-7 rounded border border-[#acaaaa] outline-none  focus:ring-white"
+        <div class="lg:mx-[500px] mx-16 mt-2">
+            <x-input class="w-full px-2  h-7 rounded border border-[#acaaaa] outline-none  focus:ring-white"
                 placeholder="buscar" wire:model.live="search" type="search" />
         </div>
 
