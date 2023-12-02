@@ -11,7 +11,6 @@ class BookEditForm extends Form
 {
     use WithFileUploads;
 
-    #[Rule('required')]
     public $path_cover;
 
 

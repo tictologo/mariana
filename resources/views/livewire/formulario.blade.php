@@ -35,7 +35,7 @@
 
                 <div>
                     <label for="bookCreate.path_cover" class="block font-semibold mb-2">Agregar portada</label>
-                    <input type="file" class="w-full p-2 border rounded-md" wire:model="bookCreate.path_cover">
+                    <input type="file" disabled class="w-full p-2 border rounded-md" wire:model="bookCreate.path_cover">
                     @error('bookCreate.path_cover')
                         <p class="text-red-500 text-sm">{{ $message }}</p>
                     @enderror
@@ -162,7 +162,7 @@
 
                 <div>
                     <label for="bookEdit.path_cover" class="block font-semibold mb-2">Agregar portada</label>
-                    <input type="file" class="w-full p-2 border rounded-md" value="{{ old('bookEdit.path_cover') }}"
+                    <input type="file" disabled class="w-full p-2 border rounded-md" value="{{ old('bookEdit.path_cover') }}"
                         wire:model="bookEdit.path_cover">
                     @error('bookEdit.path_cover')
                         <p class="text-red-500 text-sm">{{ $message }}</p>
